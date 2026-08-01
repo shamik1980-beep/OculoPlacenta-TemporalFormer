@@ -4,7 +4,6 @@ OculoPlacenta-TemporalFormer is a research repository for privacy-preserving, tr
 The repository deliberately separates two evidence levels:
 Reproduced public-data benchmark: leakage-resistant analysis of the Bogotá pre-eclampsia cohort.
 Proposed multimodal architecture: an unvalidated PyTorch scaffold for future patient-linked, longitudinal, multicentre research.
-![Proposed OculoPlacenta-TemporalFormer architecture](docs/assets/model_architecture.png)
 Why this project matters
 Pre-eclampsia and fetal growth restriction can evolve before severe symptoms become obvious. Maternal history alone may not capture the underlying placental and vascular process. The project investigates whether four complementary signals can improve risk assessment:
 Retinal oculomics: non-invasive indicators of maternal microvascular health.
