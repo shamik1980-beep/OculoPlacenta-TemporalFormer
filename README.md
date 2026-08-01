@@ -1,8 +1,5 @@
 OculoPlacenta-TemporalFormer
 Explainable Federated Multimodal AI for Longitudinal Pre-Eclampsia and Fetal Growth Restriction Prediction
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Research-Prototype-orange)
 OculoPlacenta-TemporalFormer is a research repository for privacy-preserving, trimester-wise prediction of pre-eclampsia and fetal growth restriction using retinal oculomics, placental biomarkers, uteroplacental Doppler, and maternal clinical trajectories.
 The repository deliberately separates two evidence levels:
 Reproduced public-data benchmark: leakage-resistant analysis of the Bogotá pre-eclampsia cohort.
