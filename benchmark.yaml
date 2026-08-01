@@ -1,0 +1,15 @@
+project: oculoplacenta-temporalformer
+analysis: bogota_clinical_benchmark
+seed: 20260731
+cross_validation:
+  folds: 5
+  repeats: 2
+bootstrap_iterations: 500
+classification_threshold: 0.5
+models:
+  - penalised_logistic_regression
+  - shrinkage_lda
+  - random_forest
+outcomes:
+  - early_onset_preeclampsia
+  - intrauterine_growth_restriction

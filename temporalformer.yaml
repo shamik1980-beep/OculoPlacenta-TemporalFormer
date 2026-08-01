@@ -1,0 +1,23 @@
+model:
+  name: OculoPlacentaTemporalFormer
+  retinal_embedding_dim: 768
+  biomarker_feature_dim: 8
+  doppler_feature_dim: 12
+  clinical_feature_dim: 20
+  hidden_dim: 128
+  attention_heads: 4
+  transformer_layers: 3
+  dropout: 0.10
+  maximum_visits: 4
+  outcomes:
+    - preeclampsia
+    - fetal_growth_restriction
+federated_learning:
+  aggregation: weighted_fedavg
+  planned_clients: 7
+  secure_aggregation: planned
+  differential_privacy: experimental
+interpretation:
+  image_attribution: attention_rollout
+  tabular_attribution: shap
+  calibration: isotonic_or_platt_on_validation_only
